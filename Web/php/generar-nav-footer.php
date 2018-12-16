@@ -15,7 +15,7 @@ function generarNav($ruta)
             <a href="<?= $ruta ?>pages/hacerPregunta.php" id="link-pregunta">Haz una Pregunta</a>
             <form id="formulario-busqueda" method="get" action="<?= $ruta ?>index.php">
                 <label for="caja-busqueda" id="label-caja-busqueda">Buscar</label>
-                <input type="text" name="busquedaPreguntas" id="caja-busqueda" placeholder="Buscar" required>
+                <input type="text" name="busquedaPreguntas" id="caja-busqueda" placeholder="Buscar CAMBIO AUTOMATICO" required>
             </form>
         </div>
         <div id="contenido-derecha-nav">
