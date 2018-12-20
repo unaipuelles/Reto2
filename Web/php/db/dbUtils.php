@@ -60,8 +60,8 @@ if (isset($_GET['idPregunta'], $_GET['userId'])) {
 function getConnection()
 {
     $bbdd = "mysql:host=localhost;dbname=reto2_bbdd;charset=utf8";
-    $usuario = "root";
-    $pass = "";
+    $usuario = "phpmyadmin";
+    $pass = "12345Abcde";
 
     try {
         $conexion = new PDO($bbdd, $usuario, $pass);
